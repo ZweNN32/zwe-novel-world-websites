@@ -1,0 +1,168 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #F5F5F5;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: #333333;
+    color: #FFFFFF;
+    padding: 0px 20px 0 20px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+h1 {
+    font-size: 36px;
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.container {
+    max-width: 800px;
+    margin: auto;
+    padding: 30px 200px 20px 200px;
+    background-color: #FFFFFF;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.story {
+    margin-bottom: 40px;
+    border: 1px solid #000000;
+    border-radius: 4px;
+    padding: 30px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease-in-out;
+}
+.story:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+.story h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+.story p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333333;
+    color: #FFFFFF;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease-in-out;
+}
+.button:hover {
+    background-color: #666666;
+}
+header nav {
+    display: flex;
+}
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding-left: 1000px;
+    display: flex;
+    padding-bottom: 10px;
+}
+header nav li {
+    margin: 0 10px;
+}
+header nav li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+header nav li a:hover {
+    text-decoration: underline;
+}
+img {
+    position: relative;
+    top: 62px;
+    right : 400px;
+    margin: 0;
+    padding: 0;
+    height: 36px;
+    width: 100px;
+}
+.imgcss{
+    margin-right: 12px;
+    width: 30px;
+    height: 30px;
+    position: relative;
+    left : 980px;
+    top: 55px;
+  }
+  
+footer {
+    color: #F5F5F5;
+    background-color: #333333;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Media queries for responsive design */
+@media only screen and (max-width: 900px) {
+    .container {
+        padding: 30px 100px 20px 100px;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .container {
+        padding: 30px 50px 20px 50px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    h1{
+        font-size: 30px;
+        padding: 2px;
+    }
+    .container {
+        padding: 30px 20px 20px 20px;
+    }
+    header nav ul {
+        padding: 0;
+        justify-content: center;
+    }
+    img {
+        top: auto;
+        right: auto;
+        left: auto;
+    }
+    .imgcss{
+        top: auto;
+        right: auto;
+        left: auto;
+    }
+    header nav li {
+        margin: 0 5px;
+    }
+}
+@media only screen and (max-width: 400px) {
+    h1{
+        font-size: 24px;
+    }
+    .container {
+        padding: 20px;
+    }
+    header nav ul {
+        padding: 0;
+        justify-content: center;
+    }
+    img {
+        top: auto;
+        right: auto;
+        left: auto;
+    }
+    .imgcss{
+        top: auto;
+        right: auto;
+        left: auto;
+    }
+    header nav li {
+        margin: 0 5px;
+    }
+}
